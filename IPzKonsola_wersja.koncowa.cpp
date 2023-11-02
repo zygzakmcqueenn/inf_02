@@ -8,10 +8,12 @@ cout << "Obliczanie adresu ip";
 cout << endl;
 system("pause");
 
+
     cout << "Podaj adres IP: ";
     cin >> ip;
     cout << "Podaj maske sieci (w postaci skroconej): ";
     cin >> mask;
+
 
 
     int ip_parts[4];
