@@ -5,9 +5,7 @@ int main() {
     std::string ip;
     int mask;
 
-    cout << "Obliczanie ip";
-    system("pause")
-    std::cout << "Podaj adres IP: ";
+ std::cout << "Podaj adres IP: ";
     std::cin >> ip;
     std::cout << "Podaj maske sieci (w postaci skroconej): ";
     std::cin >> mask;
