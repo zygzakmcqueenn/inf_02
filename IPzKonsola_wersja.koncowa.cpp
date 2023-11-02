@@ -1,14 +1,17 @@
 #include <iostream>
 #include <bitset>
-
+using namespace std;
 int main() {
-    std::string ip;
+    string ip;
     int mask;
+cout << "Obliczanie adresu ip";
+cout << endl;
+system("pause");
 
-    std::cout << "Podaj adres IP: ";
-    std::cin >> ip;
-    std::cout << "Podaj maske sieci (w postaci skroconej): ";
-    std::cin >> mask;
+    cout << "Podaj adres IP: ";
+    cin >> ip;
+    cout << "Podaj maske sieci (w postaci skroconej): ";
+    cin >> mask;
 
 
     int ip_parts[4];
@@ -26,8 +29,8 @@ int main() {
     }
 
  
-    std::cout << "Adres sieci: " << network_address[0] << "." << network_address[1] << "." << network_address[2] << "." << network_address[3] << "\n";
-    std::cout << "Adres rozgloszeniowy: " << broadcast_address[0] << "." << broadcast_address[1] << "." << broadcast_address[2] << "." << broadcast_address[3] << "\n";
+    cout << "Adres sieci: " << network_address[0] << "." << network_address[1] << "." << network_address[2] << "." << network_address[3] << "\n";
+    cout << "Adres rozgloszeniowy: " << broadcast_address[0] << "." << broadcast_address[1] << "." << broadcast_address[2] << "." << broadcast_address[3] << "\n";
 
     return 0;
 }
