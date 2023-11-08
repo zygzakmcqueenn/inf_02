@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
   
-  cout << "Podaj liczbę do dwóch miejsc po przecinku: ";
+  cout << "Podaj liczbe do dwoch miejsc po przecinku: ";
   double liczba;
   cin >> liczba;
 
@@ -46,13 +46,13 @@ int main() {
   double polowa_1_125 = ilosc_1_125 / 2.0; // połowa liczby 1.125
 
 
-  cout << "Liczba 25: " << ilosc_25 << ", połowa: " << polowa_25 << endl;
-  cout << "Liczba 20: " << ilosc_20 << ", połowa: " << polowa_20 << endl;
-  cout << "Liczba 15: " << ilosc_15 << ", połowa: " << polowa_15 << endl;
-  cout << "Liczba 10: " << ilosc_10 << ", połowa: " << polowa_10 << endl;
-  cout << "Liczba 5: " << ilosc_5 << ", połowa: " << polowa_5 << endl;
-  cout << "Liczba 2.5: " << ilosc_2_5 << ", połowa: " << polowa_2_5 << endl;
-  cout << "Liczba 1.125: " << ilosc_1_125 << ", połowa: " << polowa_1_125 << endl;
+  cout << "Liczba 25: " << ilosc_25 << ", polowa: " << polowa_25 << endl;
+  cout << "Liczba 20: " << ilosc_20 << ", polowa: " << polowa_20 << endl;
+  cout << "Liczba 15: " << ilosc_15 << ", polowa: " << polowa_15 << endl;
+  cout << "Liczba 10: " << ilosc_10 << ", polowa: " << polowa_10 << endl;
+  cout << "Liczba 5: " << ilosc_5 << ", polowa: " << polowa_5 << endl;
+  cout << "Liczba 2.5: " << ilosc_2_5 << ", polowa: " << polowa_2_5 << endl;
+  cout << "Liczba 1.125: " << ilosc_1_125 << ", polowa: " << polowa_1_125 << endl;
   cout << "Reszta: " << liczba << endl;
 
   return 0;
