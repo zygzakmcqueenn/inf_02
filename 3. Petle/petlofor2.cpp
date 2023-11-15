@@ -7,23 +7,15 @@ cout << "podaj szerokosc: ";
 cin >> szerokosc;
 cout << "podaj wysokosc: ";
 cin >> wysokosc;
-	/* Inkrementacja
-	i = i + 1
-	i += 1
-	1++
-	dekrementacja
-	i = i - 1
-	i -= 1
-	1--
-	for(wartoscpoczatkowa; warunek konczacy; krok)
-	*/
-	for(int i = 0; i < 10; i += 2){
-		cout << i << endl;
-	}
+
 	//petla zagniezdzona
 	for(int i = 0; i < wysokosc; i++){
 		for(int j = 0; j < szerokosc; j++){
-			cout << "*"; 
+			if(i == 0 || i == wysokosc - 1)cout << "*";
+			else if(j == 0 || j == szerokosc - 1)cout << "*";
+			else cout << " ";
+			
+			 
 			
 		}
 		cout << endl;
