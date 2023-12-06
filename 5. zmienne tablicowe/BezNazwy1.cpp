@@ -10,13 +10,13 @@ for (int i=0;i<5;i++){
 		
 
     }
-    cout << "parzyste liczby z nich:";
-	for(int i=5;i<0;i--){
-		
-		cout << tab[i] << " ";
-	
-		
-	
-
-}
+    cout << "na odwrot: ";
+	for(int i=0;i<5;i++){
+		if(tab[i] <= 0){
+			
+			cout << "0 "; 
+			
+			}
+			else cout << tab[i] << " ";
+	}
 }
