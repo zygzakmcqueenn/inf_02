@@ -11,7 +11,7 @@ for (int i=0;i<5;i++){
 
     }
     cout << "na odwrot: ";
-	for(int i=0;i<5;i++){
+	for(int i=0;i<0;i++){
 		if(tab[i] <= 0){
 			
 			cout << "0 "; 
