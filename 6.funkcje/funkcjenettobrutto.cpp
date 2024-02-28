@@ -1,12 +1,16 @@
 #include <iostream>
 using namespace std;
-int netto(float brutto) {
-	
+int Netto(float brutto) {
+ 	int wynik2;
+	wynik2 = brutto / 1.23;
+	return wynik2;	
   
 }
-int brutto(float netto) {
-	
- 
+int Brutto(float netto) {
+	int wynik;
+	wynik = netto * 1.23;
+	return wynik;
+    
 }
 int main()
 {
