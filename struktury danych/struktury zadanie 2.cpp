@@ -61,7 +61,7 @@ break;
     
 case 3:
       
-          cout << "od jakich wydawnictw chcesz zobaczyć książki: ";
+          cout << "od jakich wydawnictw chcesz zobaczyc ksiazki: ";
     cin >> wbwydaw;
     for(int i = 0; i < 7; i++){
     	if (ksiazki_DDT[i].wydawnictwo == wbwydaw){
